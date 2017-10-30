@@ -6,8 +6,8 @@ package com.example.shurik.observerandroid;
 
 public interface IMyObserveble {
 
-    void registerObserver();
-    void removeObserver();
+    void registerObserver(IMyObserver object);
+    void removeObserver(IMyObserver object);
     void notifyObserver();
 
 }
